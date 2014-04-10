@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     network = parse_data(directory = 'people')
     plt.figure()
-    plt.title("Hackerspace Social Network", fontsize='xx-large')
+    plt.title("Hackerspace Social Network 2014", fontsize='xx-large')
     graph.create_graph(network)
 
     plt.show()
